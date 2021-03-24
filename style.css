@@ -1,8 +1,25 @@
 body {
   margin: 0px;
-  padding: 25px;
+  padding: 0px;
   font-family: "Roboto Mono", "Noto Serif TC", sans-serif;
   background-color: rgb(253,253,253);
+}
+
+.fixedHeader{
+  background-color: rgb(249, 168, 37);
+  color: white;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  padding: 5px 0px;
+  top: 0px;
+  text-align: center;
+  box-shadow: 0px 0px 15px rgb(249, 168, 37);
+  font-size: 12px;
+}
+
+.space{
+  margin: 50px;
 }
 
 .background {
@@ -21,26 +38,23 @@ hr {
   border: 1px solid transparent;
   border-radius: 10px;
   padding: 20px;
-  margin-bottom: 25px;
+  margin: 25px 25px 0px 25px;
   text-align: center;
-  box-shadow: 0px 0px 20px rgb(220,220,220);
+  box-shadow: 0px 5px 15px rgb(220,220,220);
   transition: 0.3s;
   transition-timing-function: cubic-bezier(.4,0,.2,1);
   background-color: white;
 }
 
 .basicCard:hover {
-  box-shadow: 0px 0px 20px rgb(200,200,200);
+  box-shadow: 0px 10px 20px rgb(200,200,200);
 }
 
 .cardTitle {
   margin: 0px 0px 10px 0px;
+  text-align: center;
+  font-family: "Roboto Mono", "Noto Sans TC", sans-serif;
 }
-
-/*
-.cardParagrah{
-    margin: ;
-}*/
 
 iframe {
   width: 50%;
@@ -48,15 +62,16 @@ iframe {
 }
 
 .roundedLinkButton {
-  color: black;
+  color: rgb(60,60,60);
   border-radius: 50px;
-  //border: 1px solid rgb(200,200,200);
   padding: 5px 10px;
   margin: 0px 2px 0px 5px;
-  background-color: rgb(235,235,235);
+  background-color: rgb(240,240,240);
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
+  transition: 0.2s;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -116,6 +131,7 @@ iframe {
   margin-top: 10px;
   overflow: auto;
   white-space: nowrap;
+  text-align: center;
 }
 
 table,
@@ -158,4 +174,9 @@ a {
 
   /* Support for IE. */
   font-feature-settings: "liga";
+}
+
+footer{
+  text-align: center;
+  color: rgb(180,180,180);
 }
