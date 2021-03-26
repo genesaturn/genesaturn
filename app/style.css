@@ -6,7 +6,7 @@ body {
 }
 
 .topFixedHeader {
-  background-color: rgb(197, 98, 0);
+  background-color: rgb(211, 47, 47);
   color: white;
   width: 100%;
   height: auto;
@@ -14,7 +14,7 @@ body {
   padding: 5px 0px;
   top: 0px;
   text-align: center;
-  box-shadow: 0px 0px 15px rgb(197, 98, 0);
+  box-shadow: 0px 0px 15px rgb(211, 47, 47);
   font-size: 12px;
 }
 
