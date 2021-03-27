@@ -21,7 +21,7 @@ body {
 .space {
   margin: 50px;
 }
-
+/*
 .background {
   background-image: url("/file/standardBackground.jpg");
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@ hr {
   border: transparent;
   border-top: 1px solid rgb(235, 235, 235);
 }
-
+*/
 .basicCard {
   /*
   border: 0px solid transparent;
@@ -137,7 +137,7 @@ iframe {
   background-color: rgb(52, 168, 83);
   color: white;
 }
-
+/*
 .pictureContainer {
   position: relative;
   padding-bottom: 100%;
@@ -156,7 +156,7 @@ iframe {
   border-radius: 5px;
   border: 0px;
 }
-
+*/
 table,
 td,
 th {
