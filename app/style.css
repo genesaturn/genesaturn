@@ -156,7 +156,7 @@ iframe {
   border-radius: 5px;
   border: 0px;
 }
-*/
+
 table,
 td,
 th {
@@ -167,6 +167,10 @@ th {
 
 table {
   width: 100%;
+}
+*/
+ul {
+  text-align: left;
 }
 
 a {
