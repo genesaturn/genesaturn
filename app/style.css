@@ -65,7 +65,7 @@ hr {
 .article {
   text-indent: 2em;
   text-align: justify;
-  text-justify: inter-word;
+  text-justify: auto;
 }
 
 .cardContentTimestamp {
