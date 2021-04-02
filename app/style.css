@@ -6,7 +6,7 @@ body {
 }
 
 .fixedHeader {
-  background-color: rgb(211, 47, 47);
+  background-color: #b71c1c;
   color: white;
   width: 100%;
   height: auto;
@@ -14,7 +14,7 @@ body {
   padding: 5px 0px;
   top: 0px;
   text-align: center;
-  box-shadow: 0px 0px 15px rgb(211, 47, 47);
+  box-shadow: 0px 0px 15px#b71c1c;
   font-size: 12px;
   z-index: 1;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 hr {
-  margin: 10px 0px 10px 0px;
+  margin: 5px 20vw 5px 20vw;
   border: transparent;
   border-top: 1px solid rgb(235, 235, 235);
 }
@@ -32,34 +32,57 @@ hr {
 .basicCard {
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0px 5px 15px rgb(220, 220, 220);
-  margin: 25px;
-  text-align: center;
+  box-shadow: 0px 10px 20px rgb(220, 220, 220);
+  margin: 20px;
+  text-align: left;
   transition: 0.3s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .basicCard:hover {
-  box-shadow: 0px 10px 20px rgb(200, 200, 200);
+/*   box-shadow: 0px 10px 20px rgb(200, 200, 200);
+ */}
+
+.imageContainer{
+	margin: 0px;
+  padding: 0px;
+  border: 0px;
+  border-radius: 10px 10px 10px 0px;
+}
+
+.cardHeaderImage {
+ width: 100%;
+ height: auto;
+ margin: 0px;
+ padding: 0px;
+ border-radius: 10px 10px 0px 0px;
 }
 
 .cardHeader {
-  padding: 20px 20px 0px 20px;
+  padding: 15px 20px 0px 20px;
   margin: 0px;
-  text-align: center;
+  text-align: left;
   font-family: "Roboto Mono", "Noto Sans TC", sans-serif;
 }
 
 .cardTitle {
   margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  /* Move to indiv. class */
+  margin: 0px;
+  padding: 0px;
 }
 
 .cardContent {
-  padding: 30px;
+  padding: 15px 20px 20px 20px;
 }
 
 .cardContentText {
   margin: 0px;
+  padding: 0px;
 }
 
 .article {
@@ -69,18 +92,37 @@ hr {
 }
 
 .cardContentTimestamp {
+ /*Added from gene.cyct.club*/
   margin: 0px;
   text-align: right;
 }
 
-ul {
-  margin-top: 0px;
-  text-align: left;
+.eventCard {
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgb(220, 220, 220);
+  color: white;
+  text-shadow: 0px 0px 30px gray;
+  transition: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: white;
+  background-size: 100% auto;
+  background-position:center center;
+  background-repeat:no-repeat;
 }
 
-.listTitle {
-  margin-bottom: 0px;
-  text-align: left;
+.eventCardContent {
+  padding: 20px 20px 20px 20px;
+}
+
+.eventCardTitle {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto Mono", "Noto Sans TC", sans-serif;
+}
+
+.eventCardContentText {
+  margin: 0px;
 }
 
 .actions {
@@ -88,12 +130,6 @@ ul {
   overflow: auto;
   white-space: nowrap;
   text-align: center;
-}
-
-iframe {
-  width: 100%;
-  display: block;
-  border-radius: 5px;
 }
 
 .roundedLinkButton {
@@ -142,19 +178,20 @@ iframe {
   background-color: rgb(52, 168, 83);
   color: white;
 }
-/*
 
 .googleMapsFrame {
   width: 100%;
   display: block;
-  border-radius: 5px;
+  border: 0px;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 0px;
 }
 
 .mediaContainer {
   z-index: 0;
   position: relative;
   padding-bottom: 56.25%;
-  
+  margin-bottom: 10px;
 }
 
 .youtubeVideo {
@@ -167,6 +204,7 @@ iframe {
   height: 100%;
   border-radius: 5px;  
   border: 0px;
+  margin: 0px;
 }
 
 table,
@@ -180,11 +218,19 @@ th {
 table {
   width: 100%;
 }
-*/
 
 a {
   line-height: 24px;
 }
+
+.listTitle {
+  margin: 0px;
+}
+
+ol {
+  margin: 0px 0px 15px 0px;
+}
+
 .material-icons {
   font-family: "Material Icons";
   font-weight: normal;
@@ -213,7 +259,6 @@ a {
 }
 
 footer {
-  text-align: left;
-  margin: 25px;
+  text-align: center;
   color: rgb(80, 80, 80);
 }
